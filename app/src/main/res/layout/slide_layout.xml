@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/description"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="197dp"
+        android:layout_height="175dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200px"
+        app:srcCompat="@drawable/sustomservie"></ImageView>
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/allerta"
+        android:text="Heading"
+        android:textColor="#C5BDBD"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/paragraph"
+        android:layout_width="303dp"
+        android:layout_height="192dp"
+        android:layout_below="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/actor"
+        android:padding="35sp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. D"
+        android:textAlignment="center"
+        android:textColor="#979494"
+        android:textStyle="bold" />
+</RelativeLayout>
