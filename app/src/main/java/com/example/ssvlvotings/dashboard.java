@@ -10,6 +10,7 @@ import android.view.WindowManager;
 
 import com.example.ssvlvotings.Fragments.HomeFragment;
 import com.example.ssvlvotings.Fragments.ProfileFragment;
+import com.example.ssvlvotings.Fragments.VoteFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class dashboard extends AppCompatActivity {
